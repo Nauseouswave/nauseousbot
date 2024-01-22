@@ -7,12 +7,7 @@ const opts = {
         username: 'nauseousbro',
         password: 'oauth:' + process.env.OATH_TOKEN
     },
-    channels: [
-        'nauseousdroid',
-        'nauseouswave',
-        'peakyluka',
-        'DuckTapeDevOps'
-    ]
+    channels: process.env.CHANNELS
 };
 
 // Create a client with our options
