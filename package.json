@@ -1,0 +1,24 @@
+{
+  "name": "nauseousbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.6.6",
+    "node-mp3-player": "^1.0.3",
+    "node-wav-player": "^0.2.0",
+    "play-sound": "^1.1.6",
+    "replicate": "^0.25.2",
+    "sound-play": "^1.1.0",
+    "sqlite3": "^5.1.7",
+    "tmi.js": "^1.8.5",
+    "twitch-webhooks": "^4.6.7"
+  }
+}
